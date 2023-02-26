@@ -1,0 +1,24 @@
+.boton {
+	background-color: white;
+	color: green;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+.boton{
+    width: 250px;
+    height: 250px;
+}
+.boton::after { 
+    content: " Pasa por encima";
+}
+    
+
+.boton:hover {
+	background-color: green;
+	color: white;
+}
+
+.boton:hover::after {
+	content: " ¡Hecho!";
+}
